@@ -4,7 +4,7 @@ import bgImage from "@/assets/bg_Image.png";
 const Profile = () => {
   return (
     <div className="flex justify-between pt-24 px-28 mb-56 ">
-      <h1 className="text-3xl w-3/4 mt-6 mb-4">
+      <h1 className="text-[32px] w-3/4 mt-6 mb-4">
         Hello! I’m Anuj Kaphle, a UI/UX designer from Kathmandu with more than
         two years of professional experience. My work focuses on crafting
         intuitive and engaging user experiences.

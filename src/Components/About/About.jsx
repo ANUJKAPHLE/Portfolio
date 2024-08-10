@@ -12,8 +12,8 @@ const About = () => {
         <div>
           <div>
             <div className="flex items-center">
-              <h1 className="w-1/2 text-3xl text-left ">Who Am I</h1>
-              <p className="w-1/2 text-xl">
+              <h1 className="w-1/2 text-[36px] text-left ">Who Am I</h1>
+              <p className="w-1/2 text-[22px]">
                 Hello! I’m Anuj Kaphle, a passionate UI/UX designer based in
                 Kathmandu with over two years of experience in creating
                 intuitive, user-centered designs. My journey in design began
@@ -27,8 +27,8 @@ const About = () => {
           </div>
           <div>
             <div className="flex items-center">
-              <h1 className="w-1/2 text-3xl text-left ">What I do</h1>
-              <div className="w-1/2 text-xl">
+              <h1 className="w-1/2 text-[36px] text-left ">What I do</h1>
+              <div className="w-1/2 text-[22px]">
                 <p>
                   I’m a designer specializing in UI/UX design and branding. My
                   work focuses on creating intuitive digital experiences and
@@ -53,8 +53,10 @@ const About = () => {
           </div>
           <div>
             <div className="flex items-center">
-              <h1 className="w-1/2 text-3xl text-left ">Working experience</h1>
-              <div className="w-1/2 text-xl">
+              <h1 className="w-1/2 text-[36px] text-left ">
+                Working experience
+              </h1>
+              <div className="w-1/2 text-[22px]">
                 <p>
                   My journey into the world of design began as a Graphics Intern
                   at Hammer Lab, where I quickly transitioned into the role of
@@ -91,9 +93,12 @@ const About = () => {
           </div>
           <div>
             <div className="flex items-center">
-              <h1 className="w-1/2 text-3xl text-left ">Design course</h1>
-              <div className="w-1/2 text-xl">
-                <Image src={coursera} className="pt-8 pb-14 pr-36" />
+              <h1 className="w-1/2 text-[36px] text-left ">Design course</h1>
+              <div className="w-1/2 text-[22px]">
+                <Image
+                  src={coursera}
+                  className="pt-8 h-[397px] w-[513px] pb-8"
+                />
                 <p>
                   I have completed the Google UX Design course, where I gained
                   in-depth knowledge and practical skills in user experience
