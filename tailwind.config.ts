@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       colors:{
         primary:"#ffffff",
+        secondary:"#eeeeee"
       },
       fontFamily:{
         sans: ['Poppins', ...defaultTheme.fontFamily.sans]
