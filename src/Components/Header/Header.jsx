@@ -12,8 +12,8 @@ const Header = () => {
 
         <div className="hidden lg:flex justify-between gap-16 font-semibold">
           <div className=" flex gap-16 pt-4">
-            <div className="cursor-pointer">Projects</div>
-            <div className="cursor-pointer">About</div>
+            <div>Projects</div>
+            <a href="/about">About</a>
           </div>
           <Button
             type="submit"
