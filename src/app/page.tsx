@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import ContentStrategist from "@/widgets/contentStrategist/ContentStrategist";
+import ContentStrategist from "@/Components/contentStrategist/ContentStrategist";
 
 export default function Home() {
   return (
