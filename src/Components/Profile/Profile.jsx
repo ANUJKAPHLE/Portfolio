@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bgImage from "@/../public/bg_Image.png";
+import bgImage from "@/assets/bg_Image.png";
 
 const Profile = () => {
   return (

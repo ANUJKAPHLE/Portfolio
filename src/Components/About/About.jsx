@@ -1,5 +1,5 @@
 import Image from "next/image";
-import coursera from "@/../public/coursera.png";
+import coursera from "@/assets/coursera.jpeg";
 
 const About = () => {
   return (
