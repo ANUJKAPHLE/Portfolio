@@ -97,7 +97,7 @@ const About = () => {
               <div className="w-1/2 text-[22px]">
                 <Image
                   src={coursera}
-                  className="pt-8 h-[397px] w-[513px] pb-8"
+                  className="pt-8 h-[440px] w-[485px] pb-8"
                   alt="course certificate"
                 />
                 <p>

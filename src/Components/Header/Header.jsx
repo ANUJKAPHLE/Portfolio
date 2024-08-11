@@ -10,16 +10,16 @@ const Header = () => {
           <p className="text-[22px]">Designer</p>
         </Link>
 
-        <div className="hidden lg:flex justify-between gap-16 font-semibold text-[22px]">
+        <div className=" flex justify-between gap-16 font-semibold text-[22px]">
           <div className=" flex gap-16 pt-5">
             <div>Projects</div>
             <a href="/about">About</a>
           </div>
           <Button
             type="submit"
-            className="hover:bg-black hover:text-white rounded-[42.4px] px-10 py-2 "
+            className="hover:bg-black hover:text-white rounded-[42.4px] px-11 py-2 "
           >
-            Hire me
+            Hire Me
           </Button>
         </div>
       </header>
