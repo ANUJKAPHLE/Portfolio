@@ -98,6 +98,7 @@ const About = () => {
                 <Image
                   src={coursera}
                   className="pt-8 h-[397px] w-[513px] pb-8"
+                  alt="course certificate"
                 />
                 <p>
                   I have completed the Google UX Design course, where I gained

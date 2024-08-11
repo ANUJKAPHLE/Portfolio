@@ -12,7 +12,7 @@ const Profile = () => {
       <div className="w-3/4 h-80 relative ">
         <Image
           src={bgImage}
-          //   alt=""
+          alt=""
           //   layout="fill"
           //   objectFit="cover"
           //   className=""
