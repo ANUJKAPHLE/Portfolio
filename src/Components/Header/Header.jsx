@@ -7,7 +7,7 @@ const Header = () => {
       <header className="flex justify-between pt-9 px-12 lg:px-28">
         <Link href={"/"} className="text-left">
           <h1 className="text-[28px] font-bold">Anuj Kaphle</h1>
-          <p className="text-[22px]">Designer</p>
+          <p className="text-[22px] font-light">Designer</p>
         </Link>
 
         <div className=" flex justify-between gap-16 font-semibold text-[22px]">

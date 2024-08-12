@@ -95,11 +95,16 @@ const About = () => {
             <div className="flex items-center">
               <h1 className="w-1/2 text-[36px] text-left ">Design course</h1>
               <div className="w-1/2 text-[22px]">
-                <Image
-                  src={coursera}
-                  className="pt-8 h-[440px] w-[485px] pb-8"
-                  alt="course certificate"
-                />
+                <a
+                  href="https://coursera.org/share/9ebc871716c330fb5218994db87b7845"
+                  target="_blank"
+                >
+                  <Image
+                    src={coursera}
+                    className="pt-7 h-[440px] w-[500px] pb-8"
+                    alt="course certificate"
+                  />
+                </a>
                 <p>
                   I have completed the Google UX Design course, where I gained
                   in-depth knowledge and practical skills in user experience
