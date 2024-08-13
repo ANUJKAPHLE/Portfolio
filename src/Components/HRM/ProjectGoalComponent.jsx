@@ -1,0 +1,22 @@
+import projectGoal from "@/texts/projectGoal.json";
+
+const ProjectGoalComponent = () => {
+  return (
+    <div className="bg-black text-white px-[98px] py-[86px]">
+      <h1 className="font-bold text-[34px] leading-[51px]">
+        Project Goals icon
+      </h1>
+
+      <div className="flex flex-wrap gap-x-[113px]  pl-2">
+        {Object.entries(projectGoal).map(([key, value]) => (
+          <div className="w-[45%]" key={key}>
+            <p className="font-bold text-2xl leading-[43.2px] pt-11">{key}</p>
+            <p className="text-lg leading-9 pt-3">{String(value)}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default ProjectGoalComponent;
