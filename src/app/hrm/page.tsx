@@ -7,11 +7,14 @@ import laptop from "@/assets/laptop.jpg";
 import DesignProcess from "@/assets/DesignProcess.png";
 import Timeline from "@/assets/Timeline.png";
 
+import projectGoal from "@/texts/projectGoal.json";
+import research from "@/texts/research.json";
+
 const page = () => {
   return (
     <div>
       <div className="pt-24 px-28 justify-between">
-        <div className="bg-black text-white w-[1322px] h-[251px] text-center py-16">
+        <div className="bg-black text-white w-[1280px] h-[251px] text-center py-16">
           <p className="text-[32px] font-semibold">SOFTNINE HRM</p>
           <p className="text-[56px] ">HRM System To Connect </p>
         </div>
@@ -45,8 +48,8 @@ const page = () => {
           </div>
         </div>
       </div>
-      <ProjectGoalComponent />
-      <div className="px-28">
+      <ProjectGoalComponent heading={"Project Goals icon"} text={projectGoal} />
+      <div className="px-28 pb-8">
         <div className="pt-14">
           <p className="font-bold text-[34px] leading-[51px]">Design Process</p>
           <Image src={DesignProcess} alt="design process" />
@@ -58,6 +61,7 @@ const page = () => {
           <Image src={Timeline} alt="timeline" />
         </div>
       </div>
+      <ProjectGoalComponent heading={"Research"} text={research} />
     </div>
   );
 };
