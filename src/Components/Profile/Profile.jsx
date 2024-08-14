@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import bgImage from "@/assets/bg_Image.png";
+import bgImage from "@/assets/bg_Image.jpg";
 
 const Profile = () => {
   const text =

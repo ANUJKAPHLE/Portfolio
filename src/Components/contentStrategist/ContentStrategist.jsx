@@ -4,22 +4,22 @@ const ContentStrategist = () => {
   return (
     <div className="text-[40.01px] font-bold text-white w-fit">
       <motion.div
-        className="p-1 pl-7 pr-2 w-fit bg-black border-2  border-black"
-        animate={{ x: -140, y: 0, rotate: 0 }}
+        className=" pl-11 w-[340px] h-[60px] bg-black border-2  border-black"
+        animate={{ x: -50, y: 0, rotate: 0 }}
       >
         User Interface
       </motion.div>
 
       <motion.div
-        className="p-1 px-7 mt-5 w-fit bg-black border-2  border-black"
-        animate={{ x: -60, y: 0, rotate: -14 }}
+        className="p-1 px-7 mt-7 w-[389px] h-[70px] bg-black border-2  border-black"
+        animate={{ x: -15, y: 0, rotate: -13.4 }}
       >
         User Experience
       </motion.div>
 
       <motion.div
-        className="py-1 pl-5 pr-32 w-fit mt-14 bg-black border-2 border-black"
-        animate={{ x: -45, y: 0, rotate: -3 }}
+        className="py-1 pl-24 pr-32 w-[454px] h-[72px] mt-14 bg-black border-2 border-black"
+        animate={{ x: 15, y: 0, rotate: -3.26 }}
       >
         Branding
       </motion.div>
