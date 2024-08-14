@@ -17,12 +17,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link
-          href="https://fonts.googleapis.com/css?family=Poppins"
-          rel="stylesheet"
-        />
-      </head>
       <body className={"font-sans" + inter.className}>
         <Header />
         {children}

@@ -13,10 +13,14 @@ import research from "@/texts/research.json";
 const page = () => {
   return (
     <div>
-      <div className="pt-24 px-28 justify-between">
-        <div className="bg-black text-white w-[1280px] h-[251px] text-center py-16">
-          <p className="text-[32px] font-semibold">SOFTNINE HRM</p>
-          <p className="text-[56px] ">HRM System To Connect </p>
+      <div className="pt-24 px-[91px] justify-between">
+        <div className="bg-black text-white w-[1331px] h-[251px] text-center py-16">
+          <p className="text-[32px] font-semibold leading-[48px]">
+            SOFTNINE HRM
+          </p>
+          <p className="text-[40px] leading-[48.41px] pt-2 font-inter">
+            HRM System To Connect
+          </p>
         </div>
         <div className="py-12 px-24">
           <WorkComponent />

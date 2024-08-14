@@ -14,8 +14,8 @@ const config: Config = {
         secondary:"#eeeeee"
       },
       fontFamily:{
-        sans: ['Poppins', ...defaultTheme.fontFamily.sans]
-        
+        sans: ['Poppins', ...defaultTheme.fontFamily.sans],    
+        inter: ['inter',...defaultTheme.fontFamily.sans]    
       },
 
     },
