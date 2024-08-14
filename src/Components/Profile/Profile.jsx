@@ -10,7 +10,7 @@ const Profile = () => {
     );
   return (
     <div className=" flex relative w-full h-screen overflow-hidden pt-24 px-28 ">
-      <div className="flex-1 pr-[500px] overflow-visible relative z-10 text-[31px] mt-6">
+      <div className="flex-1 pr-[570px] w-[743px] h-[130px] overflow-visible relative z-10 text-[22px] font-semibold leading-[43.2px] mt-5">
         {text.map((item, index) => (
           <motion.span
             initial={{ opacity: 0 }}
@@ -25,7 +25,7 @@ const Profile = () => {
           </motion.span>
         ))}
       </div>
-      <div className="w-[51.3%] bg-image absolute top-0 right-0 z-0 pt-24">
+      <div className="w-[51.3%] pl-1 bg-image absolute top-0 right-0 z-0 pt-24">
         <Image src={bgImage} alt="" className="h-[461px] w-[665px]" />
       </div>
     </div>

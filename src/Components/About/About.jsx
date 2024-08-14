@@ -6,29 +6,35 @@ const About = () => {
     <div className="pt-14 pb-24 bg-black text-white">
       <div className="px-28">
         <div className="mb-3 ">
-          <p className="text-5xl">About Me</p>
+          <h1 className="text-[28px] font-bold leading-[42px]">About Me</h1>
           <div className="w-full h-px my-6 bg-white border-0 " />
         </div>
         <div>
           <div>
             <div className="flex items-center">
-              <h1 className="w-1/2 text-[36px] text-left ">Who Am I</h1>
-              <p className="w-1/2 text-[22px]">
-                Hello! I’m Anuj Kaphle, a passionate UI/UX designer based in
-                Kathmandu with over two years of experience in creating
-                intuitive, user-centered designs. My journey in design began
-                with a fascination for how visual aesthetics and functionality
-                come together to shape user experiences. Over the years, I’ve
-                honed my skills in crafting interfaces that are not only
-                visually appealing but also highly functional and easy to use.
-              </p>
+              <h2 className="w-1/2 font-semibold leading-[43.2px] text-left ">
+                Who Am I
+              </h2>
+              <div className="w-1/2 leading-[27px]">
+                <p>
+                  Hello! I’m Anuj Kaphle, a passionate UI/UX designer based in
+                  Kathmandu with over two years of experience in creating
+                  intuitive, user-centered designs. My journey in design began
+                  with a fascination for how visual aesthetics and functionality
+                  come together to shape user experiences. Over the years, I’ve
+                  honed my skills in crafting interfaces that are not only
+                  visually appealing but also highly functional and easy to use.
+                </p>
+              </div>
             </div>
             <div className="w-full h-px my-6 bg-white border-0 " />
           </div>
           <div>
             <div className="flex items-center">
-              <h1 className="w-1/2 text-[36px] text-left ">What I do</h1>
-              <div className="w-1/2 text-[22px]">
+              <h2 className="w-1/2 font-semibold leading-[43.2px] text-left ">
+                What I do
+              </h2>
+              <div className="w-1/2 leading-[27px]">
                 <p>
                   I’m a designer specializing in UI/UX design and branding. My
                   work focuses on creating intuitive digital experiences and
@@ -53,10 +59,10 @@ const About = () => {
           </div>
           <div>
             <div className="flex items-center">
-              <h1 className="w-1/2 text-[36px] text-left ">
+              <h2 className="w-1/2 font-semibold leading-[43.2px] text-left ">
                 Working experience
-              </h1>
-              <div className="w-1/2 text-[22px]">
+              </h2>
+              <div className="w-1/2 leading-[27px]">
                 <p>
                   My journey into the world of design began as a Graphics Intern
                   at Hammer Lab, where I quickly transitioned into the role of
@@ -93,8 +99,10 @@ const About = () => {
           </div>
           <div>
             <div className="flex items-center">
-              <h1 className="w-1/2 text-[36px] text-left ">Design course</h1>
-              <div className="w-1/2 text-[22px]">
+              <h2 className="w-1/2 font-semibold leading-[43.2px] text-left ">
+                Design course
+              </h2>
+              <div className="w-1/2 leading-[27px]">
                 <a
                   href="https://coursera.org/share/9ebc871716c330fb5218994db87b7845"
                   target="_blank"
