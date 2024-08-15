@@ -1,6 +1,8 @@
 import WorkComponent from "@/Components/HRM/workComponent";
 import TextComponent from "@/Components/HRM/TextComponent";
 import ProjectGoalComponent from "@/Components/HRM/ProjectGoalComponent";
+import UserPersona from "@/Components/HRM/UserPersona";
+
 import Image from "next/image";
 import macbook from "@/assets/Macbook.jpg";
 import laptop from "@/assets/laptop.jpg";
@@ -22,7 +24,7 @@ const page = () => {
             HRM System To Connect
           </p>
         </div>
-        <div className="py-12 px-24">
+        <div className="py-20 px-24">
           <WorkComponent />
         </div>
         <TextComponent />
@@ -55,17 +57,18 @@ const page = () => {
       <ProjectGoalComponent heading={"Project Goals icon"} text={projectGoal} />
       <div className="px-28 pb-8">
         <div className="pt-14">
-          <p className="font-bold text-[34px] leading-[51px]">Design Process</p>
+          <p className="font-bold text-[28px] leading-[42px]">Design Process</p>
           <Image src={DesignProcess} alt="design process" />
         </div>
         <div className="pt-14">
-          <p className="font-bold text-[34px] leading-[51px]">
+          <p className="font-bold text-[28px] leading-[42px]">
             Project Timeline
           </p>
-          <Image src={Timeline} alt="timeline" />
+          <Image src={Timeline} alt="timeline" className="pt-20 pb-32" />
         </div>
       </div>
       <ProjectGoalComponent heading={"Research"} text={research} />
+      <UserPersona />
     </div>
   );
 };

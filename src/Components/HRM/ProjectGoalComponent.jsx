@@ -6,7 +6,7 @@ const ProjectGoalComponent = ({ heading, text }) => {
       <div className="flex flex-wrap gap-x-[113px]">
         {Object.entries(text).map(([key, value]) => (
           <div className="w-[45%]" key={key}>
-            <p className="font-bold text-[22px] leading-[43.2px] pt-11">
+            <p className="font-bold text-[22px] leading-[43.2px] pt-10">
               {key}
             </p>
             <p className="text-lg leading-[27px] pt-3">{String(value)}</p>
