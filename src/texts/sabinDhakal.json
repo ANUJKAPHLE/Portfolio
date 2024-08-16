@@ -1,0 +1,7 @@
+{
+    "name":"Sabin Dhakal",
+    "age":"23 yrs.  Mobile app developer",
+    "Background":"Sabin Dhakal is a 23-year-old student majoring in Computer Science with a focus on mobile app development. He has hands-on experience developing various mobile applications, which has honed his skills in both Android and iOS platforms. As he balances his studies with practical development projects,",
+    "Needs & Goal":["User-Centric Design: Create HRM system features with a focus on intuitive and user-friendly interfaces to enhance the overall user experience.","Support Scalability: Create solutions that can scale effectively with increased user loads and evolving business needs.","Efficient Workflows: Develop features that automate and streamline tasks within the HRM system to reduce manual effort and increase productivity."],
+    "Pain Points":["Feature Integration: Encounters issues with integrating new features into existing HRM system components, leading to compatibility and performance challenges.","Platform Compatibility: Faces challenges ensuring that features work consistently across different mobile platforms and devices.","Interface Complexity: Struggles with designing interfaces that are both functional and easy to navigate, potentially causing user confusion.","Facilitate Smooth Integration: Implement solutions that integrate new features seamlessly with existing system components."]
+}

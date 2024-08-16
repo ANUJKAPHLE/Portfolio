@@ -1,4 +1,10 @@
-import UserPersonaProfile from "./UserPersona/UserPersonaProfile";
+import UserPersonaProfile from "@/Components/UserPersonaProfile/Profile";
+
+import SujanPradhan from "@/assets/Sujan_Pradhan.png";
+import SabinDhakal from "@/assets/Sabin_Dhakal.png";
+
+import SujanPradhanText from "@/texts/sujanPardhan.json";
+import SabinDhakalText from "@/texts/sabinDhakal.json";
 
 const UserPersona = () => {
   return (
@@ -12,9 +18,9 @@ const UserPersona = () => {
           effectively.
         </p>
       </div>
-      <div className="flex gap-16">
-        <UserPersonaProfile />
-        <UserPersonaProfile />
+      <div className="flex mt-7 gap-16">
+        <UserPersonaProfile imgName={SujanPradhan} text={SujanPradhanText} />
+        <UserPersonaProfile imgName={SabinDhakal} text={SabinDhakalText} />
       </div>
     </div>
   );
