@@ -26,4 +26,16 @@ p {
   .text-balance {
     text-wrap: balance;
   }
+
+  .text-1stroke {
+    color: #dc4e4e;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+  }
+
+  .text-2stroke {
+    color: #08368e;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+  }
 }
