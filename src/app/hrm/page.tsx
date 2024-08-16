@@ -1,9 +1,11 @@
+import Image from "next/image";
+
 import WorkComponent from "@/Components/HRM/workComponent";
 import TextComponent from "@/Components/HRM/TextComponent";
 import ProjectGoalComponent from "@/Components/HRM/ProjectGoalComponent";
 import UserPersona from "@/Components/HRM/UserPersona";
+import IdeateAndPrototype from "@/Components/HRM/IdeateAndPrototype";
 
-import Image from "next/image";
 import macbook from "@/assets/Macbook.jpg";
 import laptop from "@/assets/laptop.jpg";
 import DesignProcess from "@/assets/DesignProcess.png";
@@ -69,6 +71,8 @@ const page = () => {
       </div>
       <ProjectGoalComponent heading={"Research"} text={research} />
       <UserPersona />
+      <IdeateAndPrototype />
+      <div className="mb-16" />
     </div>
   );
 };

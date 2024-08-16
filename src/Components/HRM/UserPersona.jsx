@@ -8,7 +8,7 @@ import SabinDhakalText from "@/texts/sabinDhakal.json";
 
 const UserPersona = () => {
   return (
-    <div className="pt-20 px-[100px] pb-96">
+    <div className="pt-20 px-[100px] pb-28">
       <div>
         <h1 className="font-bold leading-[42px]">User Persona</h1>
         <p className="text-lg leading-7 mt-5 w-[1108px] h-[54px]">
