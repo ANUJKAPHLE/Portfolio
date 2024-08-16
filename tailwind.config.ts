@@ -12,7 +12,8 @@ const config: Config = {
       colors:{
         primary:"#ffffff",
         secondary:"#eeeeee",
-        SecondaryBgColor:"#1A1A1A"
+        SecondaryBgColor:"#1A1A1A",
+        secondaryTextColor :"#6A737D"
       },
       fontFamily:{
         sans: ['Poppins', ...defaultTheme.fontFamily.sans],    

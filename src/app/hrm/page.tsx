@@ -5,6 +5,7 @@ import TextComponent from "@/Components/HRM/TextComponent";
 import ProjectGoalComponent from "@/Components/HRM/ProjectGoalComponent";
 import UserPersona from "@/Components/HRM/UserPersona";
 import IdeateAndPrototype from "@/Components/HRM/IdeateAndPrototype";
+import ColorAndTypography from "@/Components/HRM/ColorAndTypography";
 
 import macbook from "@/assets/Macbook.jpg";
 import laptop from "@/assets/laptop.jpg";
@@ -72,7 +73,7 @@ const page = () => {
       <ProjectGoalComponent heading={"Research"} text={research} />
       <UserPersona />
       <IdeateAndPrototype />
-      <div className="mb-16" />
+      <ColorAndTypography />
     </div>
   );
 };
