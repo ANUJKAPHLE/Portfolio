@@ -1,8 +1,15 @@
+import Image from "next/image";
 import Headlines from "@/Components/Typography/Headlines";
 import Text from "@/Components/Typography/Text";
 import ButtonTypography from "@/Components/Typography/ButtonTypography";
 
 import textData from "@/texts/colorAndTypography.json";
+
+import gridImage from "@/assets/grid.png";
+import dashboardImage from "@/assets/dashboard.png";
+import pageImage from "@/assets/page.png";
+import formImage from "@/assets/form.png";
+import laptopImage from "@/assets/laptop1.jpg";
 
 const ColorAndTypography = () => {
   return (
@@ -91,6 +98,47 @@ const ColorAndTypography = () => {
         <Headlines />
         <Text />
         <ButtonTypography />
+      </div>
+      <div className="pl-1">
+        <div className="pb-20">
+          <h1 className="text-[28px] leading-[42px] font-bold">Grid</h1>
+          <Image
+            src={gridImage}
+            alt={"grid"}
+            className="mt-7 w-[1332px] h-[705px]"
+          />
+        </div>
+        <div>
+          <h1 className="text-[28px] leading-[42px] font-bold">
+            Sketching & Wireframes
+          </h1>
+          <div className="mt-14 mb-24 flex gap-10">
+            <Image
+              src={dashboardImage}
+              className=" h-[556.7px] w-[424px]"
+              objectFit="cover"
+              alt="dashboard image"
+            />
+            <Image
+              src={pageImage}
+              className="w-[418px] h-[558px]"
+              alt="page image"
+              objectFit="cover"
+            />
+            <Image
+              src={formImage}
+              className="w-[402px] h-[557px]"
+              alt="form image"
+              objectFit="cover"
+            />
+          </div>
+          <Image
+            src={laptopImage}
+            alt="laptop image"
+            className="h-[998px] w-[1330px]"
+          />
+          <div className="pb-10" />
+        </div>
       </div>
     </div>
   );
