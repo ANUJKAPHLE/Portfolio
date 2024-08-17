@@ -1,5 +1,6 @@
 import Headlines from "@/Components/Typography/Headlines";
 import Text from "@/Components/Typography/Text";
+import ButtonTypography from "@/Components/Typography/ButtonTypography";
 
 import textData from "@/texts/colorAndTypography.json";
 
@@ -86,9 +87,10 @@ const ColorAndTypography = () => {
           </div>
         </div>
       </div>
-      <div className="pl-12 flex gap-40">
+      <div className="pl-12 pb-36  grid grid-cols-2">
         <Headlines />
         <Text />
+        <ButtonTypography />
       </div>
     </div>
   );
