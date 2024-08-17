@@ -116,20 +116,17 @@ const ColorAndTypography = () => {
             <Image
               src={dashboardImage}
               className=" h-[556.7px] w-[424px] object-cover"
-              objectFit="cover"
               alt="dashboard image"
             />
             <Image
               src={pageImage}
-              className="w-[418px] h-[558px]"
+              className="w-[418px] h-[558px] object-cover"
               alt="page image"
-              objectFit="cover"
             />
             <Image
               src={formImage}
-              className="w-[402px] h-[557px]"
+              className="w-[402px] h-[557px] object-cover"
               alt="form image"
-              objectFit="cover"
             />
           </div>
           <Image
