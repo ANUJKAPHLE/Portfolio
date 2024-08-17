@@ -1,3 +1,5 @@
+import Headlines from "@/Components/Typography/Headlines";
+
 import textData from "@/texts/colorAndTypography.json";
 
 const ColorAndTypography = () => {
@@ -43,42 +45,47 @@ const ColorAndTypography = () => {
           </span>
         </div>
       </div>
-      <div className="pl-12 flex mb-10">
-        <div>
-          <p className="text-[49.25px] leading-[73.88px] font-medium mb-5">
-            Poppins
-          </p>
-          <p className="text-[27.7px] leading-[41.56px]">
-            ABCDEFGHIJKLMNOPQRSTUVWXYZ
-            <br />
-            abcdefghijklmnopqrstuvwxyz
-          </p>
-        </div>
-        <div className="w-[646.12px] h-[161px] flex gap-16 pl-[200px] mt-10">
-          <div className="h-[148px] w-[108px]">
-            <p className="text-[80px] font-normal">Aa</p>
-            <p className="text-secondaryTextColor text-xl text-center">
-              Regular
+      <div className="pl-12 mb-10">
+        <div className="flex">
+          <div>
+            <p className="text-[49.25px] leading-[73.88px] font-medium mb-5">
+              Poppins
+            </p>
+            <p className="text-[27.7px] leading-[41.56px]">
+              ABCDEFGHIJKLMNOPQRSTUVWXYZ
+              <br />
+              abcdefghijklmnopqrstuvwxyz
             </p>
           </div>
-          <div className="h-[148px] w-[108px]">
-            <p className="text-[80px] font-medium">Aa</p>
-            <p className="text-secondaryTextColor text-xl text-center">
-              Medium
-            </p>
-          </div>
-          <div className="h-[148px] w-[108px]">
-            <p className="text-[80px] font-semibold">Aa</p>
-            <p className="text-secondaryTextColor text-xl text-center">
-              Semi-Bold
-            </p>
-          </div>
-          <div className="h-[148px] w-[108px]">
-            <p className="text-[80px] font-bold">Aa</p>
-            <p className="text-secondaryTextColor text-xl text-center">Bold</p>
+          <div className="w-[646.12px] h-[161px] flex gap-16 pl-[200px] mt-10">
+            <div className="h-[148px] w-[108px]">
+              <p className="text-[80px] font-normal">Aa</p>
+              <p className="text-secondaryTextColor text-xl text-center">
+                Regular
+              </p>
+            </div>
+            <div className="h-[148px] w-[108px]">
+              <p className="text-[80px] font-medium">Aa</p>
+              <p className="text-secondaryTextColor text-xl text-center">
+                Medium
+              </p>
+            </div>
+            <div className="h-[148px] w-[108px]">
+              <p className="text-[80px] font-semibold">Aa</p>
+              <p className="text-secondaryTextColor text-xl text-center">
+                Semi-Bold
+              </p>
+            </div>
+            <div className="h-[148px] w-[108px]">
+              <p className="text-[80px] font-bold">Aa</p>
+              <p className="text-secondaryTextColor text-xl text-center">
+                Bold
+              </p>
+            </div>
           </div>
         </div>
       </div>
+      <Headlines />
     </div>
   );
 };
