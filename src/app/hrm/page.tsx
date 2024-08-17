@@ -18,7 +18,7 @@ import research from "@/texts/research.json";
 const page = () => {
   return (
     <div>
-      <div className="pt-24 px-[91px] justify-between">
+      <div className="pt-24 px-[91px] justify-between ">
         <div className="bg-black text-white w-[1331px] h-[251px] text-center py-16">
           <p className="text-[32px] font-semibold leading-[48px]">
             SOFTNINE HRM

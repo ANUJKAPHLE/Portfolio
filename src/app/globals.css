@@ -39,3 +39,7 @@ p {
     -webkit-text-stroke-color: white;
   }
 }
+/* 
+::-webkit-scrollbar {
+  display: none;
+} */

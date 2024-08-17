@@ -115,7 +115,7 @@ const ColorAndTypography = () => {
           <div className="mt-14 mb-24 flex gap-10">
             <Image
               src={dashboardImage}
-              className=" h-[556.7px] w-[424px]"
+              className=" h-[556.7px] w-[424px] object-cover"
               objectFit="cover"
               alt="dashboard image"
             />
