@@ -1,4 +1,5 @@
 import Headlines from "@/Components/Typography/Headlines";
+import Text from "@/Components/Typography/Text";
 
 import textData from "@/texts/colorAndTypography.json";
 
@@ -85,7 +86,10 @@ const ColorAndTypography = () => {
           </div>
         </div>
       </div>
-      <Headlines />
+      <div className="pl-12 flex gap-40">
+        <Headlines />
+        <Text />
+      </div>
     </div>
   );
 };
