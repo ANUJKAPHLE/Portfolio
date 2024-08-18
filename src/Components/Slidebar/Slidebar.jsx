@@ -8,9 +8,9 @@ import DashboardDarkIcon from "@/assets/dashboardDarkIcon.jpg";
 
 const Slidebar = () => {
   return (
-    <div className="bg-tertiary w-auto h-[679px]  mx-[95px]">
+    <div className="bg-tertiary w-auto h-[679px] mx-[95px] mt-14">
       <h1 className="text-[26px] font-bold leading-[29px] pl-9 pt-8">
-        Slide bar
+        Side bar
       </h1>
       <div className="flex pl-32 pt-16 gap-80 items-center">
         <Image
