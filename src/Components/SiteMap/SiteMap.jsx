@@ -2,7 +2,7 @@ import siteMap from "@/texts/siteMap.json";
 
 const SiteMap = () => {
   return (
-    <div className="mt-24">
+    <div className="mt-24 mb-24">
       <h1 className="font-bold leading-[42px] pl-[91px]">Site map</h1>
       <div className="px-24 pt-20 flex flex-wrap gap-[92px]">
         {Object.entries(siteMap).map(([key, value]) => (
