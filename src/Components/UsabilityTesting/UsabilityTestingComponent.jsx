@@ -2,6 +2,7 @@ import StudyOverview from "./StudyOverivew";
 import TimeOnTask from "./TimeOnTask";
 import UsabilityStudyPlan from "./UsabilityStudyPlan";
 import OutcomeOfTheUsability from "./OutcomeOfTheUsability";
+import InsightFromUsabilityStudy from "./InsightFromUsabilityStudy";
 
 const UsabilityTestingComponent = () => {
   return (
@@ -17,6 +18,7 @@ const UsabilityTestingComponent = () => {
         </div>
         <div>
           <UsabilityStudyPlan />
+          <InsightFromUsabilityStudy />
         </div>
       </div>
     </div>
