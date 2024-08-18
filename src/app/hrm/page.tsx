@@ -8,6 +8,7 @@ import IdeateAndPrototype from "@/Components/HRM/IdeateAndPrototype";
 import ColorAndTypography from "@/Components/HRM/ColorAndTypography";
 import UsabilityTesting from "@/Components/UsabilityTesting/UsabilityTestingComponent";
 import Slidebar from "@/Components/Slidebar/Slidebar";
+import SiteMap from "@/Components/SiteMap/SiteMap";
 
 import macbook from "@/assets/Macbook.jpg";
 import laptop from "@/assets/laptop.jpg";
@@ -78,6 +79,7 @@ const page = () => {
       <ColorAndTypography />
       <UsabilityTesting />
       <Slidebar />
+      <SiteMap />
     </div>
   );
 };
