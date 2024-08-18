@@ -3,7 +3,7 @@ import React from "react";
 const TimeOnTask = () => {
   return (
     <div className=" bg-black text-white rounded-[40px] w-[650px] h-[1014px] mt-10">
-      <div className="pt-8 pl-16 pb-32 ">
+      <div className="pt-8 pl-16 ">
         <p className="font-semibold text-[22px] leading-[43.2px]">
           Time on Task Example
         </p>
