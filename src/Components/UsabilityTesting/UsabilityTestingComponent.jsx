@@ -1,4 +1,5 @@
 import StudyOverview from "./StudyOverivew";
+import TimeOnTask from "./TimeOnTask";
 
 const UsabilityTestingComponent = () => {
   return (
@@ -7,6 +8,7 @@ const UsabilityTestingComponent = () => {
         Usability testing
       </h1>
       <StudyOverview />
+      <TimeOnTask />
     </div>
   );
 };
