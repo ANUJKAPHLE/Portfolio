@@ -1,6 +1,6 @@
 const UsabilityStudyPlan = () => {
   return (
-    <div className=" bg-black text-white rounded-[40px] w-[650px] h-[2100px] mt-10 mb-9">
+    <div className=" bg-black text-white rounded-[40px] w-[650px] h-[2100px] mt-10">
       <div className="pt-8 pl-12 ">
         <p className=" font-semibold text-[22px] leading-[43.2px]">
           Usability study plan
@@ -94,8 +94,8 @@ const UsabilityStudyPlan = () => {
               <br />
               - Findings: Highlight key usability issues, areas of success, and
               specific aspects needing improvement.
-              <br />- Recommendations:** Provide actionable recommendations
-              based on the analysis to enhance the HRM system’s usability and
+              <br />- Recommendations: Provide actionable recommendations based
+              on the analysis to enhance the HRM system’s usability and
               performance.
             </li>
             <li className="mt-4">

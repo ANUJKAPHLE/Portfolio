@@ -1,6 +1,7 @@
 import StudyOverview from "./StudyOverivew";
 import TimeOnTask from "./TimeOnTask";
 import UsabilityStudyPlan from "./UsabilityStudyPlan";
+import OutcomeOfTheUsability from "./OutcomeOfTheUsability";
 
 const UsabilityTestingComponent = () => {
   return (
@@ -9,8 +10,15 @@ const UsabilityTestingComponent = () => {
         Usability testing
       </h1>
       <StudyOverview />
-      <TimeOnTask />
-      <UsabilityStudyPlan />
+      <div className="flex gap-10">
+        <div>
+          <TimeOnTask />
+          <OutcomeOfTheUsability />
+        </div>
+        <div>
+          <UsabilityStudyPlan />
+        </div>
+      </div>
     </div>
   );
 };
