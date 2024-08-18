@@ -12,6 +12,7 @@ const config: Config = {
       colors:{
         primary:"#ffffff",
         secondary:"#eeeeee",
+        tertiary:"#F3F4FA",
         box:"#F6F7F8",
         SecondaryBgColor:"#1A1A1A",
         secondaryTextColor :"#6A737D"
