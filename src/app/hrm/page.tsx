@@ -9,6 +9,8 @@ import ColorAndTypography from "@/Components/HRM/ColorAndTypography";
 import UsabilityTesting from "@/Components/UsabilityTesting/UsabilityTestingComponent";
 import Slidebar from "@/Components/Slidebar/Slidebar";
 import SiteMap from "@/Components/SiteMap/SiteMap";
+import UserFlow from "@/Components/UserFlow/UserFlow";
+import Auth from "@/Components/Auth/Auth";
 
 import macbook from "@/assets/Macbook.jpg";
 import laptop from "@/assets/laptop.jpg";
@@ -80,6 +82,8 @@ const page = () => {
       <UsabilityTesting />
       <Slidebar />
       <SiteMap />
+      <UserFlow />
+      <Auth />
     </div>
   );
 };
