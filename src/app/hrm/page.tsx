@@ -11,6 +11,7 @@ import Slidebar from "@/Components/Slidebar/Slidebar";
 import SiteMap from "@/Components/SiteMap/SiteMap";
 import UserFlow from "@/Components/UserFlow/UserFlow";
 import Auth from "@/Components/Auth/Auth";
+import DashboardUI from "@/Components/Auth/DashboardUI";
 
 import macbook from "@/assets/Macbook.jpg";
 import laptop from "@/assets/laptop.jpg";
@@ -84,6 +85,7 @@ const page = () => {
       <SiteMap />
       <UserFlow />
       <Auth />
+      <DashboardUI />
     </div>
   );
 };
