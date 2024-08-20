@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const ContentStrategist = () => {
   return (
-    <div className="text-[40.01px] font-bold text-white w-fit">
+    <div className="text-[40.01px] font-bold text-white sm:w-1/4 md:w-fit">
       <motion.div
         className=" pl-11 w-[340px] h-[60px] bg-black border-2  border-black"
         animate={{ x: -50, y: 0, rotate: 0 }}
