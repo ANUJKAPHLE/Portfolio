@@ -14,6 +14,8 @@ import UserFlow from "@/Components/UserFlow/UserFlow";
 import Auth from "@/Components/Auth/Auth";
 import DashboardUI from "@/Components/Auth/DashboardUI";
 
+import hrmText from "@/texts/hrmText.json";
+
 import macbook from "@/assets/Macbook.jpg";
 import laptop from "@/assets/laptop.jpg";
 import DesignProcess from "@/assets/DesignProcess.png";
@@ -30,7 +32,7 @@ const page = () => {
         <div className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24">
           <WorkComponent />
         </div>
-        <TextComponent />
+        <TextComponent text={hrmText} />
         <div className="flex flex-col md:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 py-28 gap-9 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24">
           <div className="w-full sm:w-1/2">
             <Image
@@ -57,7 +59,13 @@ const page = () => {
           </div>
         </div>
       </div>
-      <ProjectGoalComponent heading={"Project Goals icon"} text={projectGoal} />
+      <ProjectGoalComponent
+        className={
+          "bg-black text-white px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[98px]"
+        }
+        heading={"Project Goals icon"}
+        text={projectGoal}
+      />
       <div className="px-28 pb-8">
         <div className="pt-14">
           <p className="font-bold text-[28px] sm:text-[32px] md:text-[36px] lg:text-[28px] leading-[42px]">
@@ -80,7 +88,13 @@ const page = () => {
           />
         </div>
       </div>
-      <ProjectGoalComponent heading={"Research"} text={research} />
+      <ProjectGoalComponent
+        className={
+          "bg-black text-white px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[98px]"
+        }
+        heading={"Research"}
+        text={research}
+      />
       <UserPersona />
       <IdeateAndPrototype />
       <ColorAndTypography />

@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={"w-fit font-sans" + inter.className}>
+      <body className={" font-sans" + inter.className}>
         <Header />
         {children}
       </body>

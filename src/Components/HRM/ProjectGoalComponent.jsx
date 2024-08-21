@@ -1,6 +1,8 @@
-const ProjectGoalComponent = ({ heading, text }) => {
+import { twMerge } from "tailwind-merge";
+
+const ProjectGoalComponent = ({ heading, text, className }) => {
   return (
-    <div className="bg-black text-white px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[98px] py-10 sm:py-12 md:py-16 lg:py-[86px]">
+    <div className={twMerge("py-10 sm:py-12 md:py-16 lg:py-[86px]", className)}>
       <h1 className="font-bold text-[28px] sm:text-[32px] md:text-[36px] lg:text-[28px] leading-[42px]">
         {heading}
       </h1>

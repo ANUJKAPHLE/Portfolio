@@ -1,9 +1,7 @@
-import hrmText from "@/texts/hrmText.json";
-
-const WorkComponent = () => {
+const WorkComponent = ({ text }) => {
   return (
-    <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24">
-      {Object.entries(hrmText).map(([key, value]) => (
+    <div className="w-full px-4 sm:px-6 md:px-0 ">
+      {Object.entries(text).map(([key, value]) => (
         <div className="py-2" key={key}>
           <p className="font-bold text-[28px] sm:text-[32px] md:text-[36px] lg:text-[28px] leading-[42px]">
             {key}
