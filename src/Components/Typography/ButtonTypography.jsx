@@ -1,8 +1,8 @@
 const ButtonTypography = () => {
   return (
-    <div className="w-[554px] h-[586px] pt-14">
+    <div className="w-full h-full">
       <p className="text-[30.78px] leading-[46.17px]">Buttons</p>
-      <div className="w-[554px] h-[515.25px] bg-box rounded-xl mt-7">
+      <div className="w-fit h-[515.25px] bg-box rounded-xl mt-7">
         <div className="px-10">
           <div className="flex gap-20 items-center pt-12 ">
             <h1 className="text-[24.63px] leading-[33.86px] font-semibold text-secondaryTextColor">

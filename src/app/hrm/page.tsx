@@ -25,32 +25,32 @@ const page = () => {
   return (
     <div>
       <div className="pt-24 px-[91px] justify-between ">
-        <div className="bg-black text-white w-[1331px] h-[251px] text-center py-16">
-          <p className="text-[32px] font-semibold leading-[48px]">
+        <div className="bg-black text-white w-full h-auto text-center py-16">
+          <p className="text-[32px] sm:text-[36px] md:text-[40px] font-semibold leading-[48px]">
             SOFTNINE HRM
           </p>
-          <p className="text-[40px] leading-[48.41px] pt-2 font-inter">
+          <p className="text-[40px] sm:text-[44px] md:text-[48px] leading-[48.41px] pt-2 font-inter">
             HRM System To Connect
           </p>
         </div>
-        <div className="py-20 px-24">
+        <div className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24">
           <WorkComponent />
         </div>
         <TextComponent />
-        <div className="flex justify-center space-x-4 py-28 gap-9">
-          <div className="w-1/2">
+        <div className="flex flex-col md:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 py-28 gap-9 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24">
+          <div className="w-full sm:w-1/2">
             <Image
               src={macbook}
-              className="rounded-3xl"
+              className="rounded-3xl w-full h-auto"
               alt="Image 1"
               loading="lazy"
               style={{ width: "637.98px", height: "641px", objectFit: "cover" }}
             />
           </div>
-          <div className="w-1/2">
+          <div className="w-full sm:w-1/2">
             <Image
               src={laptop}
-              className="rounded-3xl"
+              className="rounded-3xl w-full h-auto"
               alt="Image 2"
               loading="lazy"
               style={{
@@ -66,14 +66,24 @@ const page = () => {
       <ProjectGoalComponent heading={"Project Goals icon"} text={projectGoal} />
       <div className="px-28 pb-8">
         <div className="pt-14">
-          <p className="font-bold text-[28px] leading-[42px]">Design Process</p>
-          <Image src={DesignProcess} alt="design process" />
+          <p className="font-bold text-[28px] sm:text-[32px] md:text-[36px] leading-[42px]">
+            Design Process
+          </p>
+          <Image
+            src={DesignProcess}
+            alt="design process"
+            className="w-full h-auto"
+          />
         </div>
         <div className="pt-14">
-          <p className="font-bold text-[28px] leading-[42px]">
+          <p className="font-bold text-[28px] sm:text-[32px] md:text-[36px] leading-[42px]">
             Project Timeline
           </p>
-          <Image src={Timeline} alt="timeline" className="pt-20 pb-32" />
+          <Image
+            src={Timeline}
+            alt="timeline"
+            className="w-full h-auto pt-20 pb-32"
+          />
         </div>
       </div>
       <ProjectGoalComponent heading={"Research"} text={research} />
