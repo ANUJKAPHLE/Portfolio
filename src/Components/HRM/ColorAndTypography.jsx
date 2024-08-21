@@ -101,7 +101,7 @@ const ColorAndTypography = () => {
       </div>
       <div className="pl-1">
         <div className="pb-20">
-          <h1 className="text-[28px] sm:text-[32px] md:text-[36px] leading-[42px] font-bold">
+          <h1 className="text-[28px] sm:text-[32px] md:text-[36px] lg:text-[28px] leading-[42px] font-bold">
             Grid
           </h1>
           <Image
@@ -111,7 +111,7 @@ const ColorAndTypography = () => {
           />
         </div>
         <div>
-          <h1 className="text-[28px] sm:text-[32px] md:text-[36px] leading-[42px] font-bold">
+          <h1 className="text-[28px] sm:text-[32px] md:text-[36px] lg:text-[28px] leading-[42px] font-bold">
             Sketching & Wireframes
           </h1>
           <div className="mt-14 mb-24 flex flex-col sm:flex-row gap-4 sm:gap-6 md:gap-8 lg:gap-10">

@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+import HRMHeader from "@/Components/ReUsableComp/HRMHeader";
 import WorkComponent from "@/Components/HRM/workComponent";
 import TextComponent from "@/Components/HRM/TextComponent";
 import ProjectGoalComponent from "@/Components/HRM/ProjectGoalComponent";
@@ -25,14 +26,7 @@ const page = () => {
   return (
     <div>
       <div className="pt-24 px-[91px] justify-between ">
-        <div className="bg-black text-white w-full h-auto text-center py-16">
-          <p className="text-[32px] sm:text-[36px] md:text-[40px] font-semibold leading-[48px]">
-            SOFTNINE HRM
-          </p>
-          <p className="text-[40px] sm:text-[44px] md:text-[48px] leading-[48.41px] pt-2 font-inter">
-            HRM System To Connect
-          </p>
-        </div>
+        <HRMHeader title={"SOFTNINE HRM"} body={"HRM System To Connect"} />
         <div className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24">
           <WorkComponent />
         </div>
@@ -66,7 +60,7 @@ const page = () => {
       <ProjectGoalComponent heading={"Project Goals icon"} text={projectGoal} />
       <div className="px-28 pb-8">
         <div className="pt-14">
-          <p className="font-bold text-[28px] sm:text-[32px] md:text-[36px] leading-[42px]">
+          <p className="font-bold text-[28px] sm:text-[32px] md:text-[36px] lg:text-[28px] leading-[42px]">
             Design Process
           </p>
           <Image
@@ -76,7 +70,7 @@ const page = () => {
           />
         </div>
         <div className="pt-14">
-          <p className="font-bold text-[28px] sm:text-[32px] md:text-[36px] leading-[42px]">
+          <p className="font-bold text-[28px] sm:text-[32px] md:text-[36px] lg:text-[28px] leading-[42px]">
             Project Timeline
           </p>
           <Image

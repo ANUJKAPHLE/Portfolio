@@ -37,7 +37,9 @@ const Header = () => {
           </button>
         </div>
         <div className="hidden md:flex justify-between font-medium text-[22px] leading-[33px]  w-[451px]">
-          <div className="pt-3">Projects</div>
+          <a className="pt-3" href="/grocery">
+            Projects
+          </a>
           <a className="pt-3" href="/about">
             About
           </a>
@@ -51,7 +53,7 @@ const Header = () => {
       </header>
       {isOpen && (
         <div className="md:hidden pt-2 text-end pr-5">
-          <a href="#" className="block py-2">
+          <a href="/grocery" className="block py-2">
             Projects
           </a>
           <a href="/about" className="block py-2">

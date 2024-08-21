@@ -3,11 +3,11 @@ import textData from "@/texts/ideateAndPrototype.json";
 const IdeateAndPrototype = () => {
   return (
     <div className="pl-4 sm:pl-6 md:pl-8 lg:pl-[91px]">
-      <h1 className="font-bold text-[28px] sm:text-[32px] md:text-[36px] leading-[42px]">
+      <h1 className="font-bold text-[28px] sm:text-[32px] md:text-[36px] lg:text-[28px] leading-[42px]">
         Ideate & Prototype
       </h1>
       <div className="text-center pt-10">
-        <p className="font-semibold text-[22px] sm:text-[24px] md:text-[26px] leading-[43.2px] pb-9">
+        <p className="font-semibold text-[22px] sm:text-[24px] md:text-[26px] lg:text-[22px] leading-[43.2px] pb-9">
           How might we exercise
         </p>
       </div>

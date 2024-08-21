@@ -6,7 +6,7 @@ const About = () => {
     <div className="pt-14 pb-24 bg-black text-white">
       <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-28">
         <div className="mb-3">
-          <h1 className="text-[28px] sm:text-[32px] md:text-[36px] font-bold leading-[42px]">
+          <h1 className="text-[28px] sm:text-[32px] md:text-[36px] lg:text-[28px] font-bold leading-[42px]">
             About Me
           </h1>
           <div className="w-full h-px my-6 bg-white border-0" />
@@ -37,10 +37,10 @@ const About = () => {
           ].map((section, index) => (
             <div key={index}>
               <div className="flex flex-col lg:flex-row items-start lg:items-center">
-                <h2 className="w-full lg:w-1/2 font-semibold leading-[43.2px] text-left text-[24px] sm:text-[28px] md:text-[32px]">
+                <h2 className="w-full lg:w-1/2 font-semibold leading-[43.2px] text-left text-[24px] sm:text-[28px] md:text-[32px] lg:text-[22px]">
                   {section.title}
                 </h2>
-                <div className="w-full lg:w-1/2 leading-[27px] text-[16px] sm:text-[18px] md:text-[20px]">
+                <div className="w-full lg:w-1/2 leading-[27px] text-[16px] sm:text-[18px] md:text-[20px] lg:text-[18px]">
                   {section.image ? (
                     <a
                       href="https://coursera.org/share/9ebc871716c330fb5218994db87b7845"
