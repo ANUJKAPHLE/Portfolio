@@ -1,5 +1,7 @@
 import Image from "next/image";
+
 import HRMHeader from "@/Components/ReUsableComp/HRMHeader";
+import WorkComponent from "@/Components/HRM/workComponent";
 import TextComponent from "@/Components/HRM/TextComponent";
 import ProjectGoalComponent from "@/Components/HRM/ProjectGoalComponent";
 import Research from "@/Components/Research/Research";
@@ -30,6 +32,9 @@ const page = () => {
           title={"Grocery works"}
           body={"Your Favorite Groceries, Just a Click Away"}
         />
+        <div className="pt-20 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24">
+          <WorkComponent />
+        </div>
         <div className="pt-20">
           <TextComponent text={groceryText} />
         </div>
