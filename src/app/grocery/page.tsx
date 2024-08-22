@@ -8,6 +8,7 @@ import ResearchSynthesis from "@/Components/Research/ResearchSynthesis";
 import LoginFlow from "@/Components/LoginFlow/LoginFlow";
 import SetLocation from "@/Components/SetLocation/SetLocation";
 import GroceryPickAndDrop from "@/Components/ReUsableComp/GroceryPickAndDrop";
+import Order from "@/Components/Order/Order";
 
 import groceryText from "@/texts/grocery.json";
 import groceryProjectGoals from "@/texts/groceryProjectGoals.json";
@@ -71,8 +72,9 @@ const page = () => {
         }
         theme={["", "Dark theme"]}
         image={[homePickupLight, homePickupDark]}
-        className={"bg-black text-white h-full"}
+        className={"bg-black text-white"}
       />
+      <Order />
     </div>
   );
 };
