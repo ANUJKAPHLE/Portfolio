@@ -16,6 +16,8 @@ import researchObjectives from "@/texts/researchObjectives.json";
 import groceryHoddingBord from "@/assets/groceryHoddingBoard.jpg";
 import homeDeliveryDark from "@/assets/home_delivery b.png";
 import homeDeliveryLight from "@/assets/home_delivery.png";
+import homePickupDark from "@/assets/home_pickup b.png";
+import homePickupLight from "@/assets/home_pickup.png";
 
 const page = () => {
   return (
@@ -61,6 +63,15 @@ const page = () => {
         theme={["Dark theme", ""]}
         image={[homeDeliveryDark, homeDeliveryLight]}
         className={""}
+      />
+      <GroceryPickAndDrop
+        heading={"Home Page Pickup"}
+        text={
+          "The Home Page Pickup feature of a grocery app is designed to provide a smooth and efficient shopping experience for users who prefer to order their groceries online and pick them up from a designated store location"
+        }
+        theme={["", "Dark theme"]}
+        image={[homePickupLight, homePickupDark]}
+        className={"bg-black text-white h-full"}
       />
     </div>
   );
