@@ -7,12 +7,15 @@ import LogoComponent from "@/Components/Logo/LogoComponent";
 import ResearchSynthesis from "@/Components/Research/ResearchSynthesis";
 import LoginFlow from "@/Components/LoginFlow/LoginFlow";
 import SetLocation from "@/Components/SetLocation/SetLocation";
+import GroceryPickAndDrop from "@/Components/ReUsableComp/GroceryPickAndDrop";
 
 import groceryText from "@/texts/grocery.json";
 import groceryProjectGoals from "@/texts/groceryProjectGoals.json";
 import researchObjectives from "@/texts/researchObjectives.json";
 
 import groceryHoddingBord from "@/assets/groceryHoddingBoard.jpg";
+import homeDeliveryDark from "@/assets/home_delivery b.png";
+import homeDeliveryLight from "@/assets/home_delivery.png";
 
 const page = () => {
   return (
@@ -50,6 +53,15 @@ const page = () => {
       />
       <LoginFlow />
       <SetLocation />
+      <GroceryPickAndDrop
+        heading={"Home Page Delivery"}
+        text={
+          "The Home Page Delivery of a grocery app is designed to provide a seamless and convenient shopping experience while prioritizing delivery options. Here’s a detailed description of what a typical homepage delivery layout would look like"
+        }
+        theme={["Dark theme", ""]}
+        image={[homeDeliveryDark, homeDeliveryLight]}
+        className={""}
+      />
     </div>
   );
 };
