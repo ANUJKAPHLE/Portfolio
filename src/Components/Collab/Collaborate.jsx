@@ -1,19 +1,14 @@
-import Button from "@/widgets/button/Button";
-
 const Collaborate = () => {
   return (
-    <div className="xs:px-20 md:px-72 py-36 items-center ">
-      <div className="sm:w-fit md:w-auto border border-hidden bg-secondary rounded-3xl">
+    <div className=" pt-24 pb-10 items-center ">
+      <div className="sm:w-fit md:w-auto lg:w-[1024px] h-auto border border-hidden bg-white text-black  rounded-3xl">
         <div className="text-center px-16 py-14">
-          <h1 className="text-[51px] font-bold">Let's Collaborate</h1>
-          <p className="text-[22px] pt-1">
-            Interested in working together? Let's talk.
+          <p className="text-[28px] font-semibold leading-[33.6px]">
+            Let's Collaborate
           </p>
-          <div className="pt-10">
-            <Button className="bg-black text-white rounded-md py-4 px-10">
-              Start Now
-            </Button>
-          </div>
+          <p className="text-[44px] leading-[57.2px] font-bold pt-1">
+            Kaphleanuj@gmail.com
+          </p>
         </div>
       </div>
     </div>
