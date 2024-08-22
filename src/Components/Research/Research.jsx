@@ -7,7 +7,7 @@ import testImage3 from "@/assets/3.jpg";
 const Research = () => {
   return (
     <div className="bg-black text-white pt-20 px-6 md:px-12 lg:px-[91px] justify-between">
-      <h1>Research</h1>
+      <h1 className="font-bold leading-[42px]">Research</h1>
       <p className="text-lg leading-[27px] pt-3">
         Effective research will inform the development of features that resonate
         with users, such as personalization, easy navigation, and eco-conscious

@@ -5,10 +5,12 @@ import ProjectGoalComponent from "@/Components/HRM/ProjectGoalComponent";
 import Research from "@/Components/Research/Research";
 import LogoComponent from "@/Components/Logo/LogoComponent";
 import ResearchSynthesis from "@/Components/Research/ResearchSynthesis";
+import LoginFlow from "@/Components/LoginFlow/LoginFlow";
 
 import groceryText from "@/texts/grocery.json";
 import groceryProjectGoals from "@/texts/groceryProjectGoals.json";
 import researchObjectives from "@/texts/researchObjectives.json";
+
 import groceryHoddingBord from "@/assets/groceryHoddingBoard.jpg";
 
 const page = () => {
@@ -45,6 +47,7 @@ const page = () => {
         alt="hodding board"
         className="h-auto w-full px-4 sm:px-6 md:px-8 lg:px-9 my-16 sm:my-24 md:my-32 lg:my-20"
       />
+      <LoginFlow />
     </div>
   );
 };
