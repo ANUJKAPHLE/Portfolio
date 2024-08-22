@@ -1,6 +1,7 @@
 import HRMHeader from "@/Components/ReUsableComp/HRMHeader";
 import TextComponent from "@/Components/HRM/TextComponent";
 import ProjectGoalComponent from "@/Components/HRM/ProjectGoalComponent";
+import Research from "@/Components/Research/Research";
 
 import groceryText from "@/texts/grocery.json";
 import groceryProjectGoals from "@/texts/groceryProjectGoals.json";
@@ -22,6 +23,7 @@ const page = () => {
           text={groceryProjectGoals}
         />
       </div>
+      <Research />
     </div>
   );
 };
