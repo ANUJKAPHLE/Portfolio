@@ -8,10 +8,10 @@ import appScreenDesign5 from "@/assets/AppScreenDesign5.png";
 
 const AppScreenDesign = () => {
   return (
-    <div className="px-[91px] pt-12">
+    <div className="px-[91px] pt-12 h-[3200px] sm:h-[2400px] md:h-[3000px] lg:h-[3454px] xl:h-[3900px]">
       <h1 className="font-bold leading-[42px]">70+ App Screen Design</h1>
 
-      <div className="relative flex justify-center w-auto h-auto">
+      <div className=" flex justify-center w-auto h-auto">
         <div className="relative">
           <Image
             src={appScreenDesign1}

@@ -1,6 +1,4 @@
-import Image from "next/image";
 import GroceryImage from "./GroceryImage";
-
 import testImage from "@/assets/1.jpg";
 import testImage2 from "@/assets/2.jpg";
 import testImage3 from "@/assets/3.jpg";
