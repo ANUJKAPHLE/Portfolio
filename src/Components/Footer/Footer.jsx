@@ -6,11 +6,19 @@ const Footer = () => {
       <div className="pb-40 xs:px-20 md:px-56 bg-black text-white flex justify-center">
         <div>
           <Collaborate />
-          <div className="text-center text-[22px] leading-[43.2px] font-bold flex flex-wrap justify-center space-x-24 sm:space-x-8 md:space-x-16 lg:space-x-28 mt-4">
-            <a className="text-center">Behance</a>
-            <a className="text-center">Dribble</a>
-            <a className="text-center">Linkedln</a>
-            <a className="text-center">Instagram</a>
+          <div className=" text-[22px] leading-[43.2px] font-bold grid sm:grid-rows-4 md:grid-cols-4 justify-center mt-4">
+            <a className="text-center w-full sm:pt-2 sm:w-auto sm:mx-2">
+              Behance
+            </a>
+            <a className="text-center w-full sm:pt-2 sm:w-auto sm:mx-2">
+              Dribble
+            </a>
+            <a className="text-center w-full sm:pt-2 sm:w-auto sm:mx-2">
+              Linkedln
+            </a>
+            <a className="text-center w-full sm:pt-2 sm:w-auto sm:mx-2">
+              Instagram
+            </a>
           </div>
         </div>
       </div>
