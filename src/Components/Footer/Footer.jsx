@@ -2,7 +2,7 @@ import Collaborate from "../Collab/Collaborate";
 
 const Footer = () => {
   return (
-    <div className="pt-20">
+    <div className="">
       <div className="pb-16 xs:px-20 md:px-56 bg-black  text-secondaryTextColor flex justify-center">
         <div>
           <Collaborate />

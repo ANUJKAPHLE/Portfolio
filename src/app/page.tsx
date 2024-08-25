@@ -5,7 +5,7 @@ import FeaturedWork from "@/Components/FeaturedWork/FeaturedWork";
 
 export default function Home() {
   return (
-    <div>
+    <div className="pb-20">
       <div className="sm:flex pt-24 px-[116px] justify-between">
         <div className="sm:w-max md:w-auto">
           <p className="text-[32px] font-bold leading-[48px]">Hey There! 👋</p>
@@ -16,7 +16,7 @@ export default function Home() {
         </div>
         <ContentStrategist />
       </div>
-      <FeaturedWork />
+      <FeaturedWork className={"bg-black text-white px-[91px] mt-40 pt-16"} />
     </div>
   );
 }

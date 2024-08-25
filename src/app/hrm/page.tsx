@@ -26,7 +26,7 @@ import research from "@/texts/research.json";
 
 const page = () => {
   return (
-    <div>
+    <div className="pb-20">
       <div className="pt-24 px-[91px] justify-between ">
         <HRMHeader title={"SOFTNINE HRM"} body={"HRM System To Connect"} />
         <div className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24">

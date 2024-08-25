@@ -5,9 +5,9 @@ import featuresWorkGrocery from "@/assets/featuresWorkGrocery.png";
 import featuresWorkDoctor from "@/assets/featuresWorkDoctor.png";
 import featuresWorkScene from "@/assets/featuresWorkScene.png";
 
-const FeaturedWork = () => {
+const FeaturedWork = ({ className }) => {
   return (
-    <div className="bg-black text-white px-[91px] mt-40 pt-16">
+    <div className={className}>
       <p className="font-bold text-[40.01px] leading-[60.01px]">
         Featured Work
       </p>

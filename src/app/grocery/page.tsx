@@ -26,7 +26,7 @@ import homePickupLight from "@/assets/home_pickup.png";
 
 const page = () => {
   return (
-    <div>
+    <div className="pb-20">
       <div className="pt-24 px-[91px] justify-between ">
         <HRMHeader
           title={"Grocery works"}
