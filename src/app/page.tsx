@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import ContentStrategist from "@/Components/contentStrategist/ContentStrategist";
+import FeaturedWork from "@/Components/FeaturedWork/FeaturedWork";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         </div>
         <ContentStrategist />
       </div>
+      <FeaturedWork />
     </div>
   );
 }
