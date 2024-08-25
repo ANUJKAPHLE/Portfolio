@@ -22,8 +22,8 @@ const DashboardUI = () => {
         alt="dashboard"
         className="w-full h-auto px-4 sm:px-6 md:px-8 lg:px-[91px] mt-8 mb-20"
       />
-      <div className="px-4 sm:px-6 md:px-8 lg:px-[91px]">
-        <div className="bg-black text-white">
+      <div className="bg-black text-white">
+        <div className="px-4 sm:px-6 md:px-8 lg:px-[91px]">
           <Image
             src={adminPage}
             alt="admin page"
@@ -47,33 +47,35 @@ const DashboardUI = () => {
               <Image
                 src={KYC}
                 alt="KYC from"
-                className="w-full sm:w-2/5 h-auto"
+                className="w-full sm:w-2/5 h-auto pb-16"
               />
               <div className="w-full sm:w-1/2">
                 <Image
                   src={secondForm}
                   alt="new employee form"
-                  className="w-full h-auto"
+                  className="w-full h-auto "
                 />
                 <Image
                   src={vacancy}
                   alt="vacancy form"
-                  className="w-full h-auto mt-20"
+                  className="w-full h-auto mt-20 "
                 />
               </div>
             </div>
-            <Image
-              className="w-full h-auto mt-24"
-              src={attendance}
-              alt="attendance "
-            />
-            <Image
-              src={addNewEmployee}
-              alt="new employee form"
-              className="w-full sm:w-3/5 h-auto mt-12 pb-10"
-            />
           </div>
         </div>
+      </div>
+      <div className="px-8 sm:px-12 md:px-16 lg:px-[240px] pt-16 pb-24">
+        <Image
+          className="w-full h-auto shadow-lg"
+          src={attendance}
+          alt="attendance"
+        />
+        <Image
+          src={addNewEmployee}
+          alt="new employee form"
+          className="w-full sm:w-3/5 h-auto mt-12 shadow-xl"
+        />
       </div>
     </div>
   );
