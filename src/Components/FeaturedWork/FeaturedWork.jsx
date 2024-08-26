@@ -12,7 +12,7 @@ const FeaturedWork = ({ className }) => {
         Featured Work
       </p>
       <div className="flex flex-wrap gap-x-36 pb-32 justify-center items-center">
-        <a href="/hrm">
+        <a href="/hrm" target="_blank">
           <FeaturedImage
             image={featuresWorkLaptop}
             subHeading={"Softnine HRM System"}
@@ -25,7 +25,7 @@ const FeaturedWork = ({ className }) => {
             positionTop="-10px"
           />
         </a>
-        <a href="/grocery">
+        <a href="/grocery" target="_blank">
           <FeaturedImage
             image={featuresWorkGrocery}
             subHeading={"Grocery works"}
