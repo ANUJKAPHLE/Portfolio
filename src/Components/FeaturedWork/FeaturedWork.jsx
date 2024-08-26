@@ -11,7 +11,7 @@ const FeaturedWork = ({ className }) => {
       <p className="font-bold text-[40.01px] leading-[60.01px]">
         Featured Work
       </p>
-      <div className="flex flex-wrap gap-x-36 pb-32">
+      <div className="flex flex-wrap gap-x-36 pb-32 justify-center items-center">
         <a href="/hrm">
           <FeaturedImage
             image={featuresWorkLaptop}
