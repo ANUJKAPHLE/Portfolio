@@ -5,7 +5,7 @@ import FeaturedWork from "@/Components/FeaturedWork/FeaturedWork";
 const page = () => {
   return (
     <div>
-      <FeaturedWork className={"bg-E7E7E7 px-[91px] mt-40 pt-16"} />
+      <FeaturedWork className={"bg-E7E7E7 px-[91px] mt-32 pt-16"} />
     </div>
   );
 };

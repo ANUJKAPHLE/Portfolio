@@ -37,7 +37,7 @@ const Header = () => {
           </button>
         </div>
         <div className="hidden md:flex justify-between font-medium text-[22px] leading-[33px]  w-[451px]">
-          <a className="pt-3" href="/grocery">
+          <a className="pt-3" href="/projects">
             Projects
           </a>
           <a className="pt-3" href="/about">
