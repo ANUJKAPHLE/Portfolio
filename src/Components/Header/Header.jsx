@@ -43,12 +43,14 @@ const Header = () => {
           <a className="pt-3" href="/about">
             About
           </a>
-          <Button
-            type="submit"
-            className="hover:bg-black hover:text-white rounded-[42.4px] px-7 py-[13px] w-[149px] h-[59px]"
-          >
-            Hire Me
-          </Button>
+          <a href="mailto:Kaphleanuj@gmail.com">
+            <Button
+              type="submit"
+              className="hover:bg-black hover:text-white rounded-[42.4px] px-7 py-[13px] w-[149px] h-[59px]"
+            >
+              Hire Me
+            </Button>
+          </a>
         </div>
       </header>
       {isOpen && (

@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+
 import ContentStrategist from "@/Components/contentStrategist/ContentStrategist";
 import FeaturedWork from "@/Components/FeaturedWork/FeaturedWork";
 import Button from "@/widgets/button/Button";
@@ -26,12 +26,14 @@ export default function Home() {
             PROJECT
           </h1>
           <div className="py-36 space-x-24">
-            <Button
-              type="submit"
-              className="bg-black text-white rounded-full px-7 py-[13px] w-[389px] h-[122px] font-medium text-[33px] leading-[49.5px]"
-            >
-              Hire Me
-            </Button>
+            <a href="mailto:Kaphleanuj@gmail.com">
+              <Button
+                type="submit"
+                className="bg-black text-white rounded-full px-7 py-[13px] w-[389px] h-[122px] font-medium text-[33px] leading-[49.5px]"
+              >
+                Hire Me
+              </Button>
+            </a>
           </div>
         </div>
       </div>
