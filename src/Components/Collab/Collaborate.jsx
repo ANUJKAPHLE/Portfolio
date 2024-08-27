@@ -6,9 +6,11 @@ const Collaborate = () => {
           <p className="text-[28px] font-semibold leading-[33.6px]">
             Let's Collaborate
           </p>
-          <p className="text-[44px] leading-[57.2px] font-bold pt-1">
-            Kaphleanuj@gmail.com
-          </p>
+          <a href="mailto:Kaphleanuj@gmail.com" className="hover:underline">
+            <p className="text-[44px] leading-[57.2px] font-bold pt-1">
+              Kaphleanuj@gmail.com
+            </p>
+          </a>
         </div>
       </div>
     </div>

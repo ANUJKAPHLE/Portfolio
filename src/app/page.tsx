@@ -1,4 +1,5 @@
 "use client";
+import { motion } from "framer-motion";
 
 import ContentStrategist from "@/Components/contentStrategist/ContentStrategist";
 import FeaturedWork from "@/Components/FeaturedWork/FeaturedWork";
@@ -6,14 +7,28 @@ import Button from "@/widgets/button/Button";
 import ImageMarquee from "@/Components/HomeMarquee/ImageMarquee";
 
 export default function Home() {
+  const bio =
+    " Welcome to my portfolio! As a designer, I specialize in creating intuitive and visually appealing digital experiences";
+
   return (
     <div className="pb-10">
       <div className="sm:flex pt-24 px-[116px] justify-between">
-        <div className="sm:w-max md:w-auto">
+        <div className="sm:w-max md:w-auto lg:w-2/3">
           <p className="text-[32px] font-bold leading-[48px]">Hey There! 👋</p>
-          <p className="pt-5 text-[40.88px] leading-[61.32px] ">
-            Welcome to my portfolio! As a designer, I specialize in creating
-            intuitive and visually appealing digital experiences
+          <p className="pt-5 text-[32px] leading-[61.32px] ">
+            {bio.split(" ").map((item, index) => (
+              <motion.span
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{
+                  duration: 0.25,
+                  delay: index / 10,
+                }}
+                key={index}
+              >
+                {item}{" "}
+              </motion.span>
+            ))}
           </p>
         </div>
         <ContentStrategist />
