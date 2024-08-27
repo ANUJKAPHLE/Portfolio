@@ -13,16 +13,16 @@ import SiteMap from "@/Components/SiteMap/SiteMap";
 import UserFlow from "@/Components/UserFlow/UserFlow";
 import Auth from "@/Components/Auth/Auth";
 import DashboardUI from "@/Components/Auth/DashboardUI";
+import ScrollToTop from "@/Components/ReUsableComp/ScrollToTop";
 
 import hrmText from "@/texts/hrmText.json";
+import projectGoal from "@/texts/projectGoal.json";
+import research from "@/texts/research.json";
 
 import macbook from "@/assets/Macbook.jpg";
 import laptop from "@/assets/laptop.jpg";
 import DesignProcess from "@/assets/DesignProcess.png";
 import Timeline from "@/assets/Timeline.png";
-
-import projectGoal from "@/texts/projectGoal.json";
-import research from "@/texts/research.json";
 
 const page = () => {
   return (
@@ -104,6 +104,7 @@ const page = () => {
       <UserFlow />
       <Auth />
       <DashboardUI />
+      <ScrollToTop />
     </div>
   );
 };

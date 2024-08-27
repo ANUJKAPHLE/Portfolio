@@ -13,6 +13,7 @@ import GroceryPickAndDrop from "@/Components/ReUsableComp/GroceryPickAndDrop";
 import Order from "@/Components/Order/Order";
 import ReviewAndFeedback from "@/Components/ReviewAndFeedback/ReviewAndFeedback";
 import AppScreenDesign from "@/Components/ReviewAndFeedback/AppScreenDesign";
+import ScrollToTop from "@/Components/ReUsableComp/ScrollToTop";
 
 import groceryText from "@/texts/grocery.json";
 import groceryProjectGoals from "@/texts/groceryProjectGoals.json";
@@ -84,6 +85,7 @@ const page = () => {
       <Order />
       <ReviewAndFeedback />
       <AppScreenDesign />
+      <ScrollToTop />
     </div>
   );
 };
