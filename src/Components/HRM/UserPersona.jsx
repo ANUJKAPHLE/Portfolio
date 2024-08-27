@@ -20,7 +20,7 @@ const UserPersona = () => {
           effectively.
         </p>
       </div>
-      <div className="flex flex-col sm:flex-row mt-7 gap-8 sm:gap-16">
+      <div className="flex flex-col sm:flex-row mt-7 gap-8 sm:gap-16 object-center justify-center">
         <UserPersonaProfile imgName={SujanPradhan} text={SujanPradhanText} />
         <UserPersonaProfile imgName={SabinDhakal} text={SabinDhakalText} />
       </div>
