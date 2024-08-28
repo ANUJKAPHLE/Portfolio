@@ -8,7 +8,7 @@ import fifthImage from "@/assets/marquee/5.png";
 
 const ImageMarquee = () => {
   return (
-    <div className="py-40">
+    <div className="pb-40">
       <Marquee speed={50} className=" w-auto" pauseOnHover={true}>
         <div className="flex gap-x-10 w-auto h-fit ">
           <div className="pl-10">

@@ -5,7 +5,7 @@ import deliveryGuy from "@/assets/deliveryGuy.jpg";
 
 const LogoComponent = () => {
   return (
-    <div className="pt-9 px-[91px]">
+    <div className="pt-20 px-[91px]">
       <div>
         <h1 className="leading-[42px] font-bold">Logo</h1>
         <p className="text-lg leading-[27px] pt-3">

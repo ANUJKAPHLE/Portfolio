@@ -1,9 +1,7 @@
-import work from "@/texts/work.json";
-
-const WorkComponent = () => {
+const WorkComponent = ({ text }) => {
   return (
     <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center gap-8 sm:gap-12 md:gap-[130px]">
-      {Object.entries(work).map(([key, value]) => (
+      {Object.entries(text).map(([key, value]) => (
         <div className=" text-center" key={key}>
           <h1 className="font-bold text-[28px] sm:text-[32px] md:text-[36px] lg:text-[28px] leading-[42px]">
             {key}

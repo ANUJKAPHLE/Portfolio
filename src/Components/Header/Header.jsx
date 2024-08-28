@@ -12,8 +12,8 @@ const Header = () => {
     <div>
       <header className=" flex justify-between pt-9 px-4 md:px-12 lg:px-28">
         <Link href={"/"} className="text-left">
-          <h1 className="text-[28px] font-bold leading-[42px]">Anuj Kaphle</h1>
-          <p className="text-[22px] font-[275] leading-[33px]">Designer</p>
+          <h1 className="text-2xl font-bold leading-[42px]">Anuj Kaphle</h1>
+          <p className="text-xl font-[275] leading-[33px]">Designer</p>
         </Link>
         <div className="md:hidden">
           <button
@@ -36,7 +36,7 @@ const Header = () => {
             </svg>
           </button>
         </div>
-        <div className="hidden md:flex justify-between font-medium text-[22px] leading-[33px]  w-[451px]">
+        <div className="hidden md:flex justify-between font-medium text-xl leading-[33px]  w-[451px]">
           <a className="pt-3" href="/projects">
             Projects
           </a>

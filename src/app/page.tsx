@@ -34,8 +34,8 @@ export default function Home() {
         <ContentStrategist />
       </div>
       <FeaturedWork className={"bg-black text-white px-[91px] mt-40 pt-16"} />
-      <div className="flex justify-center items-center">
-        <div className=" px-[177px] mt-10 flex gap-72">
+      <div className="flex justify-center items-center py-24">
+        <div className=" px-[177px] flex gap-72">
           <h1 className="font-inter text-[106.41px] leading-[128.7px]">
             Got a <br /> IN MIND? <br />
             PROJECT
@@ -44,7 +44,7 @@ export default function Home() {
             <a href="mailto:Kaphleanuj@gmail.com">
               <Button
                 type="submit"
-                className="bg-black text-white rounded-full px-7 py-[13px] w-[389px] h-[122px] font-medium text-[33px] leading-[49.5px]"
+                className="bg-black text-white rounded-full px-7 py-[13px] w-[389px] h-[122px] font-medium text-[42px] leading-[49.5px]"
               >
                 Hire Me
               </Button>

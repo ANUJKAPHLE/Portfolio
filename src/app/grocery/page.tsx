@@ -15,6 +15,7 @@ import ReviewAndFeedback from "@/Components/ReviewAndFeedback/ReviewAndFeedback"
 import AppScreenDesign from "@/Components/ReviewAndFeedback/AppScreenDesign";
 import ScrollToTop from "@/Components/ReUsableComp/ScrollToTop";
 
+import work from "@/texts/groceryWork.json";
 import groceryText from "@/texts/grocery.json";
 import groceryProjectGoals from "@/texts/groceryProjectGoals.json";
 import researchObjectives from "@/texts/researchObjectives.json";
@@ -34,7 +35,7 @@ const page = () => {
           body={"Your Favorite Groceries, Just a Click Away"}
         />
         <div className="pt-20 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24">
-          <WorkComponent />
+          <WorkComponent text={work} />
         </div>
         <div className="pt-20">
           <TextComponent text={groceryText} />

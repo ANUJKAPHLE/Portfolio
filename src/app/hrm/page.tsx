@@ -15,6 +15,7 @@ import Auth from "@/Components/Auth/Auth";
 import DashboardUI from "@/Components/Auth/DashboardUI";
 import ScrollToTop from "@/Components/ReUsableComp/ScrollToTop";
 
+import work from "@/texts/work.json";
 import hrmText from "@/texts/hrmText.json";
 import projectGoal from "@/texts/projectGoal.json";
 import research from "@/texts/research.json";
@@ -30,7 +31,7 @@ const page = () => {
       <div className="pt-24 px-[91px] justify-between ">
         <HRMHeader title={"SOFTNINE HRM"} body={"HRM System To Connect"} />
         <div className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24">
-          <WorkComponent />
+          <WorkComponent text={work} />
         </div>
         <TextComponent text={hrmText} />
         <div className="flex flex-col md:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 py-28 gap-9 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24">
@@ -63,7 +64,7 @@ const page = () => {
         className={
           "bg-black text-white px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[98px]"
         }
-        heading={"Project Goals icon"}
+        heading={"Project Goals"}
         text={projectGoal}
       />
       <div className="px-28 pb-8">
