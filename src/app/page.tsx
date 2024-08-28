@@ -34,7 +34,7 @@ export default function Home() {
         <ContentStrategist />
       </div>
       <FeaturedWork className={"bg-black text-white px-[91px] mt-40 pt-16"} />
-      <div className="flex justify-center items-center py-24">
+      <div className="flex justify-center items-center py-40">
         <div className=" px-[177px] flex gap-72">
           <h1 className="font-inter text-[106.41px] leading-[128.7px]">
             Got a <br /> IN MIND? <br />
