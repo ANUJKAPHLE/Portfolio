@@ -12,8 +12,8 @@ const Header = () => {
     <div>
       <header className=" flex justify-between pt-9 px-4 md:px-12 lg:px-28">
         <Link href={"/"} className="text-left">
-          <h1 className="text-2xl font-bold leading-[42px]">Anuj Kaphle</h1>
-          <p className="text-xl font-[275] leading-[33px]">Designer</p>
+          <h1 className="text-2xl font-bold leading-[33px]">Anuj Kaphle</h1>
+          <p className="text-xl font-[275] leading-[20px]">Designer</p>
         </Link>
         <div className="md:hidden">
           <button
