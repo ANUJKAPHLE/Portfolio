@@ -32,7 +32,7 @@ const FeaturedImage = ({
     }
   };
   return (
-    <div className="relative cursor- overflow-hidden">
+    <div className="relative cursor-hidden  overflow-hidden">
       <div
         className=" h-fit w-fit"
         onMouseMove={(event) => handleHover(event, true)}
