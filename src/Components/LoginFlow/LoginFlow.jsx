@@ -21,7 +21,7 @@ const LoginFlow = () => {
         and secure, ensuring users can access the app with minimal friction
         while safeguarding their information
       </p>
-      <div className="px-4 sm:px-6 md:px-8 lg:px-28 flex flex-wrap py-24 gap-x-4 sm:gap-x-6 md:gap-x-8 lg:gap-x-28 items-center">
+      <div className="px-4 sm:px-6 md:px-8 lg:px-28 flex flex-wrap py-24 gap-x-4 sm:gap-x-6 md:gap-x-8 lg:gap-x-28 items-center justify-center">
         <GroceryImage image={LoginFlow1} alt={"login Flow 1"} />
         <GroceryImage image={LoginFlow2} alt={"login Flow 2"} />
         <GroceryImage image={LoginFlow3} alt={"login Flow 3"} />

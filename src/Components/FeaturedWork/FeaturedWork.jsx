@@ -8,11 +8,11 @@ import featuresWorkScene from "@/assets/featuresWorkScene.png";
 const FeaturedWork = ({ className }) => {
   return (
     <div className={className}>
-      <p className="font-bold text-[40.01px] leading-[60.01px] pl-[60px]">
-        Featured Work
-      </p>
       <div className="flex flex-wrap gap-x-36 pb-32 justify-center items-center">
         <a href="/hrm" target="_blank">
+          <p className="font-bold text-[40.01px] leading-[60.01px] pl-4">
+            Featured Work
+          </p>
           <FeaturedImage
             image={featuresWorkLaptop}
             subHeading={"Softnine HRM System"}
@@ -25,7 +25,7 @@ const FeaturedWork = ({ className }) => {
             positionTop="-10px"
           />
         </a>
-        <a href="/grocery" target="_blank">
+        <a href="/grocery" target="_blank" className="mt-14">
           <FeaturedImage
             image={featuresWorkGrocery}
             subHeading={"Grocery works"}
@@ -35,12 +35,13 @@ const FeaturedWork = ({ className }) => {
             imageWidth="348px"
             imageHeight="390px"
             positionLeft="30px"
-            positionTop="18px"
+            positionTop="30px"
           />
         </a>
         <a
           href="https://www.behance.net/gallery/120770647/Doctor-help-app-case-study"
           target="_blank"
+          className="mt-12"
         >
           <FeaturedImage
             image={featuresWorkDoctor}
@@ -57,6 +58,7 @@ const FeaturedWork = ({ className }) => {
         <a
           href="https://www.figma.com/proto/UY9Mh4EVxzzYmFNL5KVJTD/case-1?page-id=0%3A1&node-id=1-124&starting-point-node-id=1%3A124&t=rPgfBouB7cyyxiU8-1"
           target="_blank"
+          className="mt-12"
         >
           <FeaturedImage
             image={featuresWorkScene}
