@@ -35,7 +35,7 @@ export default function Home() {
       </div>
       <FeaturedWork className={"bg-black text-white px-[91px] mt-40 pt-16"} />
       <div className="flex justify-center items-center py-40">
-        <div className="px-4 flex flex-col md:flex-row md:gap-24 md:px-[177px]">
+        <div className="px-4 flex flex-col md:flex-row md:gap-72 md:px-[177px]">
           <h1 className="font-inter text-[48px] leading-[56px] md:text-[106.41px] md:leading-[128.7px]">
             Got a <br />
             PROJECT <br />
