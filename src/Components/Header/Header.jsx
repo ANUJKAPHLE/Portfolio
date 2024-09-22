@@ -55,13 +55,13 @@ const Header = () => {
       </header>
       {isOpen && (
         <div className="md:hidden pt-2 text-end pr-5">
-          <a href="/grocery" className="block py-2">
+          <a href="/projects" className="block py-2">
             Projects
           </a>
           <a href="/about" className="block py-2">
             About
           </a>
-          <a href="#" className="block py-2">
+          <a href="mailto:Kaphleanuj@gmail.com" className="block py-2">
             Hire Me
           </a>
         </div>
