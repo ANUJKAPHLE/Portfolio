@@ -16,7 +16,7 @@ const About = () => {
             {
               title: "Who Am I",
               content:
-                "Hello! I’m Anuj Kaphle, a passionate UI/UX designer based in Kathmandu with over two years of experience in creating intuitive, user-centered designs. My journey in design began with a fascination for how visual aesthetics and functionality come together to shape user experiences. Over the years, I’ve honed my skills in crafting interfaces that are not only visually appealing but also highly functional and easy to use.",
+                "Hello! I’m Anuj Kaphle, a passionate UI/UX designer based in Kathmandu with over three years of experience in creating intuitive, user-centered designs. My journey in design began with a fascination for how visual aesthetics and functionality come together to shape user experiences. Over the years, I’ve honed my skills in crafting interfaces that are not only visually appealing but also highly functional and easy to use.",
             },
             {
               title: "What I do",
