@@ -5,8 +5,8 @@ import bgImage from "@/assets/bg_Image.jpg";
 
 const Profile = () => {
   const text =
-    " Hello! I’m Anuj Kaphle, a UI/UX designer from Kathmandu with more than two years of professional experience. My work focuses on crafting intuitive and engaging user experiences.".split(
-      " "
+    " Hello! I’m Anuj Kaphle, a UI/UX designer from Kathmandu with more than three years of professional experience. My work focuses on crafting intuitive and engaging user experiences.".split(
+      " ",
     );
   return (
     <div className="flex relative w-full h-screen pt-24 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-28">
